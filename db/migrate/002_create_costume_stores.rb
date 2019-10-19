@@ -3,7 +3,7 @@
 
 class CreateCostumeStores < ActiveRecord::Migration[5.1]
   def change
-    create_table :create_costume_stores do |t|  #camel case on create_Table 
+    create_table :costume_stores do |t|  #camel case on create_Table 
       t.string :name 
       t.string :location 
       t.integer :custume_inventory
